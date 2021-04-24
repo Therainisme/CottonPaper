@@ -25,39 +25,4 @@
 
 其中前面打了对勾的是已经可供阅读的部分，未打勾的是还没有写或正在写的部分。本仓库在宣布archive之前会保持更新。
 
-### 第零章：预备知识
-- [ ] [什么是网页？]()
-- [ ] [待定...]()
- 
-### 第一章 HTML
-
-- [x] [HTML结构的语义化](./chapter-1/semantization.md)
-- [ ] [待定...]()
-
-### 第二章 CSS
-
-- [x] [flex布局](./chapter-2/flex.md)
-- [ ] [待定...]()
-
-### 第三章 JS
-
-- [ ] [基础部分]()
-- [ ] [Map、Set和iterable](./chapter-3/map-set-iterable.md)
-- [ ] [高阶函数]()
-- [x] [闭包](./chapter-3/closure.md)
-- [x] [奇怪的面向对象](./chapter-3/oop.md)
-- [x] [AJAX](./chapter-3/ajax.md)
-- [x] [Promise](./chapter-3/promise.md)
-- [x] [async与await](./chapter-3/asyncandawait.md)
-
-- [ ] [待定...]()
-
-### 第四章 正则
-
-- [ ] [待定...]()
-
-### 第N章 疑难杂症
-
-- [ ] [跨越问题]()
-- [ ] [手动实现一个Promise]()
-- [ ] [待定...]()
+![](./pasteimg/learning.png)
