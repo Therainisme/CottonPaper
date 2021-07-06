@@ -10,7 +10,7 @@ module.exports = {
         }]
     ],
     themeConfig: {
-        sidebarDepth: 6,
+        sidebarDepth: 2,
         // 添加导航栏
         nav: [{
             text: 'GitHub',
