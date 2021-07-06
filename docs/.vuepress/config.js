@@ -1,3 +1,5 @@
+const { getSidebar } = require('../../js/utils');
+
 module.exports = {
     title: 'CottonPaper',
     description: '一些可以用来垫桌角的纸',
@@ -23,43 +25,17 @@ module.exports = {
                 }, {
                     title: 'HTML',
                     collapsable: false,
-                    children: [{
-                        title: 'HTML的语义化',
-                        path: '/chapter-1/semantization'
-                    }]
+                    children: getSidebar('chapter-1')
                 },
                 {
                     title: 'CSS',
                     collapsable: false,
-                    children: [{
-                        title: 'Flex布局',
-                        path: '/chapter-2/flex'
-                    }]
+                    children: getSidebar('chapter-2')
                 },
                 {
                     title: 'JavaScript',
                     collapsable: false,
-                    children: [{
-                            title: '闭包',
-                            path: '/chapter-3/closure'
-                        },
-                        {
-                            title: '奇怪的面向对象',
-                            path: '/chapter-3/oop'
-                        },
-                        {
-                            title: 'AJAX',
-                            path: '/chapter-3/ajax'
-                        },
-                        {
-                            title: 'Promise',
-                            path: '/chapter-3/promise'
-                        },
-                        {
-                            title: 'async与awai',
-                            path: '/chapter-3/asyncandawait'
-                        }
-                    ]
+                    children: getSidebar('chapter-3')
                 }
             ]
         }
