@@ -11,6 +11,7 @@ module.exports = {
     ],
     themeConfig: {
         sidebarDepth: 6,
+        smoothScroll: true, // 页面滚动
         // 添加导航栏
         nav: [{
             text: 'GitHub',
