@@ -10,6 +10,7 @@ module.exports = {
         }]
     ],
     themeConfig: {
+        sidebarDepth: 6,
         // 添加导航栏
         nav: [{
             text: 'GitHub',
@@ -25,17 +26,17 @@ module.exports = {
                 }, {
                     title: 'HTML',
                     collapsable: false,
-                    children: getSidebar('chapter-1')
+                    children: getSidebar('html')
                 },
                 {
                     title: 'CSS',
                     collapsable: false,
-                    children: getSidebar('chapter-2')
+                    children: getSidebar('css')
                 },
                 {
                     title: 'JavaScript',
                     collapsable: false,
-                    children: getSidebar('chapter-3')
+                    children: getSidebar('javascript')
                 }
             ]
         }
