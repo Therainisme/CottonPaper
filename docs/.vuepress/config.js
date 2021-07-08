@@ -21,25 +21,39 @@ module.exports = {
         // 为以下路由添加侧边栏
         sidebar: {
             '/': [{
-                    title: '介绍',
-                    collapsable: false,
-                    path: '/hello'
-                }, {
-                    title: 'HTML',
-                    collapsable: false,
-                    children: getSidebar('html')
-                },
-                {
-                    title: 'CSS',
-                    collapsable: false,
-                    children: getSidebar('css')
-                },
-                {
-                    title: 'JavaScript',
-                    collapsable: false,
-                    children: getSidebar('javascript')
-                }
+                title: '介绍',
+                collapsable: false,
+                path: '/hello'
+            }, {
+                title: 'HTML',
+                collapsable: false,
+                children: getSidebar('html')
+            },
+            {
+                title: 'CSS',
+                collapsable: false,
+                children: getSidebar('css')
+            },
+            {
+                title: 'JavaScript',
+                collapsable: false,
+                children: getSidebar('javascript')
+            }
             ]
+        }
+    },
+    plugins: [
+        [
+            "md-enhance",
+            {
+                // 启用 TeX 支持
+                tex: true,
+            },
+        ],
+    ],
+    locales: {
+        '/': {
+            lang: 'zh-CN'
         }
     }
 }
